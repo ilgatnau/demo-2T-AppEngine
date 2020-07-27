@@ -1,0 +1,13 @@
+
+{
+  "filename": "cloudbuild.yaml",
+  "github": {
+    "push": {
+      "branch": "^master$"
+    },
+    "owner": "danizheleva",
+    "name": "demo-3T-springapp"
+    },
+  "name": "testTrigger"
+}
+
