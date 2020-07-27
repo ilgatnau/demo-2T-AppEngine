@@ -87,7 +87,7 @@
                 <version>2.2.0</version>
                 <configuration>
                     <deploy.projectId>three-tier-app-1</deploy.projectId>
-                    <deploy.version>1</deploy.version>
+                    <deploy.version>4</deploy.version>
                 </configuration>
             </plugin>
         </plugins>
