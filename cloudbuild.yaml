@@ -1,7 +1,7 @@
 steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['app', 'deploy', '--project', '$PROJECT_ID',  
-    '-q', '$_GAE_PROMOTE', '-v', '$_GAE_VERSION']
+    '-q', '$_GAE_PROMOTE', '--version', '$_GAE_VERSION']
   - name: 'gcr.io/cloud-builders/gcloud'
     args: ['app', 'services', '--project', '$PROJECT_ID', 
     'set-traffic', '--splits', '$_GAE_TRAFFIC']
