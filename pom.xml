@@ -86,7 +86,7 @@
                 <artifactId>appengine-maven-plugin</artifactId>
                 <version>2.2.0</version>
                 <configuration>
-                    <deploy.projectId>abiding-octane-285007</deploy.projectId>
+                    <deploy.projectId>gitlab-poc-284212</deploy.projectId>
                     <deploy.version>4</deploy.version>
                 </configuration>
             </plugin>
