@@ -7,7 +7,7 @@ steps:
     name: 'gcr.io/$PROJECT_ID/binauthz-attestation:latest'
     args:
       - '--artifact-url'
-      - 'eu.gcr.io/$PROJECT_ID/appengine/default.4:latest'
+      - 'jenkins/jenkins:lts'
       - '--attestor'
       - 'projects/$PROJECT_ID/attestors/cluster-approved'
       - '--keyversion'
