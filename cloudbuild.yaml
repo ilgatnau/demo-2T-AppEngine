@@ -12,3 +12,4 @@ steps:
       - 'projects/$PROJECT_ID/attestors/cluster-approved'
       - '--keyversion'
       - 'projects/gitlab-poc-284212/locations/global/keyRings/devops-poc/cryptoKeys/attestator-code-metrics/cryptoKeyVersions/1'
+timeout: 1800s
