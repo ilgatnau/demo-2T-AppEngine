@@ -1,3 +1,5 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=ilgatnau_demo-2T-AppEngine&metric=alert_status)](https://sonarcloud.io/dashboard?id=ilgatnau_demo-2T-AppEngine)
+
 # Deploying to App Engine
 This repo is an example of how to deploy a SpringBoot/MySQL application to GCP App Engine using Cloud Build.
 
