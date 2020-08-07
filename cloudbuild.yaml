@@ -11,6 +11,7 @@ steps:
     - '-Dsonar.projectKey=ilgatnau_demo-2T-AppEngine'
     - '-Dsonar.organization=ilgatnau'
     - '-Dsonar.sources=./src/main/java'
+    - '-Dsonar.exclusions=*.class'
   - id: 'attest-sonarqube'
     name: 'gcr.io/$PROJECT_ID/binauthz-attestation:latest'
     args:
