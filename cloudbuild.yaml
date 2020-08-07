@@ -2,7 +2,7 @@ steps:
   - id: 'build'
     name: maven:3-jdk-8
     entrypoint: mvn
-    args: ["package", "-Dmaven.test.skip=true","appengine:deploy"]
+    args: ["package", "-Dmaven.test.skip=true"]
   - id: 'sonarqube'
     name: 'gcr.io/$PROJECT_ID/sonar-scanner:latest'
     args:
